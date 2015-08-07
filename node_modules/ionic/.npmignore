@@ -1,0 +1,4 @@
+*.sw*
+*.cookies
+node_modules/
+.idea/
