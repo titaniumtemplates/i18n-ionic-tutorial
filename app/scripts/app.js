@@ -14,7 +14,7 @@ angular.module('i18nTutorial', [
   'pascalprecht.translate'
 ])
 
-.constant('availableLanguages', ['en-US'])
+.constant('availableLanguages', ['en-US', 'fr-fr'])
 .constant('defaultLanguage', 'en-US')
 
 .run(function($ionicPlatform, tmhDynamicLocale, $translate, $cordovaGlobalization,
@@ -36,7 +36,7 @@ angular.module('i18nTutorial', [
   function setLanguage() {
 			if (typeof navigator.globalization !== "undefined") {
 				$cordovaGlobalization.getPreferredLanguage().then(function (result) {
-					var language = getSuitableLanguage(result.value);
+          var language = getSuitableLanguage(result.value);
 					applyLanguage(language);
 					$translate.use(language);
 				});

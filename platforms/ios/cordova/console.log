@@ -1,0 +1,274 @@
+2015-08-10 18:57:53.147 i18nTutorial[3490:220599] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sofia/Library/Developer/CoreSimulator/Devices/78D7EA0A-60CF-4427-846F-2107828CBE8C/data/Containers/Data/Application/105216A7-BE28-4AF8-913C-203AF521F0C9/Library/Cookies/Cookies.binarycookies
+2015-08-10 18:57:54.999 i18nTutorial[3490:220599] Apache Cordova native platform version 3.7.0 is starting.
+2015-08-10 18:57:55.000 i18nTutorial[3490:220599] Multi-tasking -> Device: YES, App: YES
+2015-08-10 18:57:55.032 i18nTutorial[3490:220599] Unlimited access to network resources
+2015-08-10 18:57:55.053 i18nTutorial[3490:220599] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-10 18:57:56.212 i18nTutorial[3490:220599] [CDVTimer][keyboard] 0.061989ms
+2015-08-10 18:57:56.212 i18nTutorial[3490:220599] [CDVTimer][TotalPluginStartup] 23.888052ms
+2015-08-10 18:57:58.161 i18nTutorial[3490:220599] Resetting plugins due to page load.
+2015-08-10 18:57:59.347 i18nTutorial[3490:220599] THREAD WARNING: ['Device'] took '45.418945' ms. Plugin should use a background thread.
+2015-08-10 18:57:59.666 i18nTutorial[3490:220599] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-10 18:58:00.397 i18nTutorial[3490:220599] WARN: pascalprecht.translate.$translateSanitization: No sanitization strategy has been configured. This can have serious security implications. See http://angular-translate.github.io/docs/#/guide/19_security for details.
+2015-08-10 18:58:00.422 i18nTutorial[3490:220599] THREAD WARNING: ['Console'] took '24.318848' ms. Plugin should use a background thread.
+2015-08-10 18:58:00.433 i18nTutorial[3490:220599] THREAD WARNING: ['Keyboard'] took '10.530029' ms. Plugin should use a background thread.
+2015-08-10 19:00:02.561 i18nTutorial[3490:220599] THREAD WARNING: ['Keyboard'] took '32.241943' ms. Plugin should use a background thread.
+2015-08-11 09:44:29.429 i18nTutorial[6468:269073] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sofia/Library/Developer/CoreSimulator/Devices/78D7EA0A-60CF-4427-846F-2107828CBE8C/data/Containers/Data/Application/4FA81D51-52FF-4564-B109-502562A33335/Library/Cookies/Cookies.binarycookies
+2015-08-11 09:44:31.579 i18nTutorial[6468:269073] Apache Cordova native platform version 3.7.0 is starting.
+2015-08-11 09:44:31.580 i18nTutorial[6468:269073] Multi-tasking -> Device: YES, App: YES
+2015-08-11 09:44:31.684 i18nTutorial[6468:269073] Unlimited access to network resources
+2015-08-11 09:44:31.806 i18nTutorial[6468:269073] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-11 09:44:33.584 i18nTutorial[6468:269073] [CDVTimer][keyboard] 16.385019ms
+2015-08-11 09:44:33.584 i18nTutorial[6468:269073] [CDVTimer][TotalPluginStartup] 16.821027ms
+2015-08-11 09:44:36.603 i18nTutorial[6468:269073] Resetting plugins due to page load.
+2015-08-11 09:44:40.668 i18nTutorial[6468:269073] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 09:54:31.199 i18nTutorial[6468:269073] Resetting plugins due to page load.
+2015-08-11 09:54:31.595 i18nTutorial[6468:269073] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 09:54:40.066 i18nTutorial[6468:269073] THREAD WARNING: ['Keyboard'] took '20.092041' ms. Plugin should use a background thread.
+2015-08-11 09:54:41.689 i18nTutorial[6468:269073] THREAD WARNING: ['Keyboard'] took '12.447998' ms. Plugin should use a background thread.
+2015-08-11 09:56:08.727 i18nTutorial[6468:269073] Resetting plugins due to page load.
+2015-08-11 09:56:09.119 i18nTutorial[6468:269073] Finished load of: http://10.1.0.174:8100/#/tab/chats
+2015-08-11 10:20:00.659 i18nTutorial[7405:283161] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sofia/Library/Developer/CoreSimulator/Devices/78D7EA0A-60CF-4427-846F-2107828CBE8C/data/Containers/Data/Application/54B7FF71-7CD9-43A5-B34E-AFFFC75CE032/Library/Cookies/Cookies.binarycookies
+2015-08-11 10:20:00.869 i18nTutorial[7405:283161] Apache Cordova native platform version 3.7.0 is starting.
+2015-08-11 10:20:00.869 i18nTutorial[7405:283161] Multi-tasking -> Device: YES, App: YES
+2015-08-11 10:20:00.880 i18nTutorial[7405:283161] Unlimited access to network resources
+2015-08-11 10:20:00.896 i18nTutorial[7405:283161] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-11 10:20:01.120 i18nTutorial[7405:283161] [CDVTimer][keyboard] 0.057042ms
+2015-08-11 10:20:01.120 i18nTutorial[7405:283161] [CDVTimer][TotalPluginStartup] 0.238001ms
+2015-08-11 10:20:01.717 i18nTutorial[7405:283161] Resetting plugins due to page load.
+2015-08-11 10:20:16.635 i18nTutorial[7405:283235] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-08-11 10:20:16.724 i18nTutorial[7405:283161] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 11:06:21.322 i18nTutorial[7405:283161] Resetting plugins due to page load.
+2015-08-11 11:06:23.537 i18nTutorial[7405:283161] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 11:06:24.026 i18nTutorial[7405:283161] THREAD WARNING: ['Device'] took '60.188232' ms. Plugin should use a background thread.
+2015-08-11 11:07:29.511 i18nTutorial[7405:283161] Resetting plugins due to page load.
+2015-08-11 11:07:36.795 i18nTutorial[7405:283161] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 11:44:51.249 i18nTutorial[7405:283161] Resetting plugins due to page load.
+2015-08-11 11:44:54.420 i18nTutorial[7405:283161] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 11:44:59.058 i18nTutorial[7405:283161] THREAD WARNING: ['Device'] took '16.879150' ms. Plugin should use a background thread.
+2015-08-11 11:51:49.984 i18nTutorial[7405:283161] Resetting plugins due to page load.
+2015-08-11 11:52:05.180 i18nTutorial[7405:283235] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-08-11 11:52:05.271 i18nTutorial[7405:283161] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 11:59:50.811 i18nTutorial[7405:283235] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-08-11 11:59:51.396 i18nTutorial[7405:283161] Resetting plugins due to page load.
+2015-08-11 11:59:51.652 i18nTutorial[7405:283161] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 11:59:54.478 i18nTutorial[7405:283161] THREAD WARNING: ['Keyboard'] took '24.098145' ms. Plugin should use a background thread.
+2015-08-11 12:04:05.260 i18nTutorial[7405:283161] Resetting plugins due to page load.
+2015-08-11 12:04:06.344 i18nTutorial[7405:283161] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 12:10:45.473 i18nTutorial[8196:315796] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sofia/Library/Developer/CoreSimulator/Devices/78D7EA0A-60CF-4427-846F-2107828CBE8C/data/Containers/Data/Application/B2807B54-4332-47F3-A175-E5EB355F5A06/Library/Cookies/Cookies.binarycookies
+2015-08-11 12:10:46.865 i18nTutorial[8196:315796] Apache Cordova native platform version 3.7.0 is starting.
+2015-08-11 12:10:46.876 i18nTutorial[8196:315796] Multi-tasking -> Device: YES, App: YES
+2015-08-11 12:10:46.974 i18nTutorial[8196:315796] Unlimited access to network resources
+2015-08-11 12:10:46.981 i18nTutorial[8196:315796] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-11 12:10:48.075 i18nTutorial[8196:315796] [CDVTimer][keyboard] 0.124991ms
+2015-08-11 12:10:48.076 i18nTutorial[8196:315796] [CDVTimer][TotalPluginStartup] 10.652959ms
+2015-08-11 12:10:49.641 i18nTutorial[8196:315796] Resetting plugins due to page load.
+2015-08-11 12:10:50.868 i18nTutorial[8196:315796] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 12:12:51.909 i18nTutorial[8196:315932] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-08-11 12:12:52.037 i18nTutorial[8196:315796] Resetting plugins due to page load.
+2015-08-11 12:12:54.466 i18nTutorial[8196:315796] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 12:13:04.888 i18nTutorial[8196:315932] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-08-11 12:27:04.133 i18nTutorial[8196:315796] Resetting plugins due to page load.
+2015-08-11 12:27:07.019 i18nTutorial[8196:315796] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 12:33:35.296 i18nTutorial[8819:324334] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sofia/Library/Developer/CoreSimulator/Devices/78D7EA0A-60CF-4427-846F-2107828CBE8C/data/Containers/Data/Application/768EA7FE-552B-46FB-B40A-045D1E0E7B68/Library/Cookies/Cookies.binarycookies
+2015-08-11 12:33:36.924 i18nTutorial[8819:324334] Apache Cordova native platform version 3.7.0 is starting.
+2015-08-11 12:33:36.932 i18nTutorial[8819:324334] Multi-tasking -> Device: YES, App: YES
+2015-08-11 12:33:36.983 i18nTutorial[8819:324334] Unlimited access to network resources
+2015-08-11 12:33:37.022 i18nTutorial[8819:324334] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-11 12:33:38.276 i18nTutorial[8819:324334] [CDVTimer][keyboard] 0.074029ms
+2015-08-11 12:33:38.277 i18nTutorial[8819:324334] [CDVTimer][TotalPluginStartup] 11.959970ms
+2015-08-11 12:33:39.687 i18nTutorial[8819:324334] Resetting plugins due to page load.
+2015-08-11 12:33:41.115 i18nTutorial[8819:324334] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 12:33:44.284 i18nTutorial[8819:324334] log1
+2015-08-11 12:33:44.311 i18nTutorial[8819:324334] THREAD WARNING: ['Globalization'] took '26.504150' ms. Plugin should use a background thread.
+2015-08-11 12:34:11.370 i18nTutorial[8819:324483] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-08-11 13:11:58.128 i18nTutorial[9789:340531] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sofia/Library/Developer/CoreSimulator/Devices/78D7EA0A-60CF-4427-846F-2107828CBE8C/data/Containers/Data/Application/09F7ABA6-F0F9-4025-90FA-685842B2E3F9/Library/Cookies/Cookies.binarycookies
+2015-08-11 13:11:58.381 i18nTutorial[9789:340531] Apache Cordova native platform version 3.7.0 is starting.
+2015-08-11 13:11:58.382 i18nTutorial[9789:340531] Multi-tasking -> Device: YES, App: YES
+2015-08-11 13:11:58.399 i18nTutorial[9789:340531] Unlimited access to network resources
+2015-08-11 13:11:58.419 i18nTutorial[9789:340531] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-11 13:11:58.679 i18nTutorial[9789:340531] [CDVTimer][keyboard] 0.054002ms
+2015-08-11 13:11:58.679 i18nTutorial[9789:340531] [CDVTimer][TotalPluginStartup] 0.229001ms
+2015-08-11 13:11:59.229 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 13:12:04.752 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 13:12:04.950 i18nTutorial[9789:340531] log1
+2015-08-11 13:17:42.938 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 13:17:52.790 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 13:17:52.921 i18nTutorial[9789:340531] log1
+2015-08-11 13:18:31.738 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 13:18:31.922 i18nTutorial[9789:340531] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-08-11 13:18:31.923 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 13:18:32.074 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 13:18:32.109 i18nTutorial[9789:340531] log1
+2015-08-11 13:19:23.387 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 13:19:26.311 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 13:19:26.355 i18nTutorial[9789:340531] log1
+2015-08-11 13:21:25.072 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 13:21:28.184 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 13:21:28.230 i18nTutorial[9789:340531] log1
+2015-08-11 13:22:05.806 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 13:22:08.759 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 13:22:08.804 i18nTutorial[9789:340531] log1
+2015-08-11 13:24:37.546 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 13:24:39.321 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 13:24:39.371 i18nTutorial[9789:340531] LiveReload protocol error (invalid command 'reload', only valid commands are: hello)) after receiving data: "{"command":"reload","path":"www/i18n/fr-fr.json","liveCss":true,"liveJs":true,"liveImg":true}"..
+2015-08-11 13:24:39.371 i18nTutorial[9789:340531] log1
+2015-08-11 13:29:31.638 i18nTutorial[9789:340531] THREAD WARNING: ['Keyboard'] took '30.496094' ms. Plugin should use a background thread.
+2015-08-11 15:09:53.495 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 15:09:53.706 i18nTutorial[9789:340531] Failed to load webpage with error: The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+2015-08-11 15:09:53.908 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 15:15:07.974 i18nTutorial[9789:340551] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-08-11 15:15:08.330 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 15:15:09.766 i18nTutorial[9789:340531] THREAD WARNING: ['Device'] took '70.638916' ms. Plugin should use a background thread.
+2015-08-11 15:15:09.848 i18nTutorial[9789:340531] log1
+2015-08-11 15:15:09.873 i18nTutorial[9789:340531] THREAD WARNING: ['Globalization'] took '25.083984' ms. Plugin should use a background thread.
+2015-08-11 15:15:09.885 i18nTutorial[9789:340531] THREAD WARNING: ['Keyboard'] took '11.750977' ms. Plugin should use a background thread.
+2015-08-11 15:16:15.131 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 15:16:15.365 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/chats
+2015-08-11 15:16:15.371 i18nTutorial[9789:340531] log1
+2015-08-11 15:16:59.324 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 15:16:59.530 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/chats
+2015-08-11 15:16:59.536 i18nTutorial[9789:340531] log1
+2015-08-11 15:17:27.596 i18nTutorial[9789:340551] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-08-11 15:20:15.719 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 15:20:15.998 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/account
+2015-08-11 15:20:16.005 i18nTutorial[9789:340531] log1
+2015-08-11 15:21:09.244 i18nTutorial[9789:340551] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-08-11 15:26:36.953 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 15:26:39.480 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 15:26:39.494 i18nTutorial[9789:340531] log1
+2015-08-11 15:33:19.195 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 15:33:19.416 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/chats
+2015-08-11 15:33:19.423 i18nTutorial[9789:340531] log1
+2015-08-11 15:33:50.650 i18nTutorial[9789:340551] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2015-08-11 15:34:29.567 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 15:34:30.185 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/chats
+2015-08-11 15:35:56.505 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 15:35:57.391 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/chats
+2015-08-11 15:35:57.391 i18nTutorial[9789:340531] log1
+2015-08-11 15:55:19.026 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 15:55:19.295 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/chats
+2015-08-11 16:02:55.095 i18nTutorial[9789:340531] Resetting plugins due to page load.
+2015-08-11 16:02:55.328 i18nTutorial[9789:340531] Finished load of: http://10.1.0.174:8100/#/tab/chats
+2015-08-11 16:04:58.510 i18nTutorial[10749:391764] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sofia/Library/Developer/CoreSimulator/Devices/78D7EA0A-60CF-4427-846F-2107828CBE8C/data/Containers/Data/Application/8E72706C-4DEC-46BE-A775-3AF0FAEF48BB/Library/Cookies/Cookies.binarycookies
+2015-08-11 16:05:00.413 i18nTutorial[10749:391764] Apache Cordova native platform version 3.7.0 is starting.
+2015-08-11 16:05:00.424 i18nTutorial[10749:391764] Multi-tasking -> Device: YES, App: YES
+2015-08-11 16:05:00.478 i18nTutorial[10749:391764] Unlimited access to network resources
+2015-08-11 16:05:00.512 i18nTutorial[10749:391764] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-11 16:05:01.591 i18nTutorial[10749:391764] [CDVTimer][keyboard] 0.100970ms
+2015-08-11 16:05:01.591 i18nTutorial[10749:391764] [CDVTimer][TotalPluginStartup] 9.028971ms
+2015-08-11 16:05:03.168 i18nTutorial[10749:391764] Resetting plugins due to page load.
+2015-08-11 16:05:04.562 i18nTutorial[10749:391764] Finished load of: http://10.1.0.174:8100/
+2015-08-11 16:07:23.853 i18nTutorial[10749:391764] Resetting plugins due to page load.
+2015-08-11 16:07:24.164 i18nTutorial[10749:391764] THREAD WARNING: ['Device'] took '46.406982' ms. Plugin should use a background thread.
+2015-08-11 16:07:24.176 i18nTutorial[10749:391764] Finished load of: http://10.1.0.174:8100/
+2015-08-11 16:09:11.614 i18nTutorial[10749:391764] Resetting plugins due to page load.
+2015-08-11 16:09:11.831 i18nTutorial[10749:391764] Finished load of: http://10.1.0.174:8100/
+2015-08-11 16:14:23.364 i18nTutorial[10749:391764] Resetting plugins due to page load.
+2015-08-11 16:14:23.639 i18nTutorial[10749:391764] Finished load of: http://10.1.0.174:8100/
+2015-08-11 16:20:04.350 i18nTutorial[11366:397082] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sofia/Library/Developer/CoreSimulator/Devices/78D7EA0A-60CF-4427-846F-2107828CBE8C/data/Containers/Data/Application/40D40230-1110-4B13-9C2D-ECB98EDA5D7F/Library/Cookies/Cookies.binarycookies
+2015-08-11 16:20:05.829 i18nTutorial[11366:397082] Apache Cordova native platform version 3.7.0 is starting.
+2015-08-11 16:20:05.841 i18nTutorial[11366:397082] Multi-tasking -> Device: YES, App: YES
+2015-08-11 16:20:05.934 i18nTutorial[11366:397082] Unlimited access to network resources
+2015-08-11 16:20:06.023 i18nTutorial[11366:397082] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-11 16:20:07.041 i18nTutorial[11366:397082] [CDVTimer][keyboard] 0.127017ms
+2015-08-11 16:20:07.041 i18nTutorial[11366:397082] [CDVTimer][TotalPluginStartup] 15.326977ms
+2015-08-11 16:20:08.818 i18nTutorial[11366:397082] Resetting plugins due to page load.
+2015-08-11 16:20:11.568 i18nTutorial[11366:397082] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 16:20:11.839 i18nTutorial[11366:397082] log1
+2015-08-11 16:20:22.964 i18nTutorial[11366:397082] THREAD WARNING: ['Keyboard'] took '11.879883' ms. Plugin should use a background thread.
+2015-08-11 16:20:51.905 i18nTutorial[11366:397082] Resetting plugins due to page load.
+2015-08-11 16:20:52.050 i18nTutorial[11366:397082] Finished load of: http://10.1.0.174:8100/#/tab/chats
+2015-08-11 16:20:52.056 i18nTutorial[11366:397082] log1
+2015-08-11 16:22:16.758 i18nTutorial[11366:397082] Resetting plugins due to page load.
+2015-08-11 16:22:17.177 i18nTutorial[11366:397082] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 16:22:17.177 i18nTutorial[11366:397082] log1
+2015-08-11 17:08:56.593 i18nTutorial[11366:397082] Resetting plugins due to page load.
+2015-08-11 17:08:57.066 i18nTutorial[11366:397082] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 17:08:57.118 i18nTutorial[11366:397082] THREAD WARNING: ['Device'] took '13.375977' ms. Plugin should use a background thread.
+2015-08-11 17:08:57.143 i18nTutorial[11366:397082] log1
+2015-08-11 17:10:13.119 i18nTutorial[11366:397082] Resetting plugins due to page load.
+2015-08-11 17:10:13.297 i18nTutorial[11366:397082] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 17:10:13.347 i18nTutorial[11366:397082] log1
+2015-08-11 17:11:10.855 i18nTutorial[11366:397082] Resetting plugins due to page load.
+2015-08-11 17:11:11.044 i18nTutorial[11366:397082] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 17:11:11.063 i18nTutorial[11366:397082] log1
+2015-08-11 17:14:03.968 i18nTutorial[12049:410089] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/sofia/Library/Developer/CoreSimulator/Devices/78D7EA0A-60CF-4427-846F-2107828CBE8C/data/Containers/Data/Application/7F19F8E2-4AFF-47D5-9E32-F969FCA5E6DA/Library/Cookies/Cookies.binarycookies
+2015-08-11 17:14:05.113 i18nTutorial[12049:410089] Apache Cordova native platform version 3.7.0 is starting.
+2015-08-11 17:14:05.127 i18nTutorial[12049:410089] Multi-tasking -> Device: YES, App: YES
+2015-08-11 17:14:05.180 i18nTutorial[12049:410089] Unlimited access to network resources
+2015-08-11 17:14:05.215 i18nTutorial[12049:410089] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-08-11 17:14:06.827 i18nTutorial[12049:410089] [CDVTimer][keyboard] 0.127017ms
+2015-08-11 17:14:06.827 i18nTutorial[12049:410089] [CDVTimer][TotalPluginStartup] 31.536996ms
+2015-08-11 17:14:08.259 i18nTutorial[12049:410089] Resetting plugins due to page load.
+2015-08-11 17:14:09.520 i18nTutorial[12049:410089] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 17:14:10.010 i18nTutorial[12049:410089] log1
+2015-08-11 17:14:10.027 i18nTutorial[12049:410089] THREAD WARNING: ['Globalization'] took '17.208984' ms. Plugin should use a background thread.
+2015-08-11 17:14:44.605 i18nTutorial[12049:410089] Resetting plugins due to page load.
+2015-08-11 17:14:44.828 i18nTutorial[12049:410089] Finished load of: http://10.1.0.174:8100/#/tab/dash
+2015-08-11 17:14:44.841 i18nTutorial[12049:410089] log1
+2015-08-11 17:16:06.833 i18nTutorial[12049:410089] Resetting plugins due to page load.
+2015-08-11 17:16:07.136 i18nTutorial[12049:410089] Finished load of: http://10.1.0.174:8100/#/tab/account
+2015-08-11 17:16:07.286 i18nTutorial[12049:410089] log1

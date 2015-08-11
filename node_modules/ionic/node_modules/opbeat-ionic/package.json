@@ -1,0 +1,71 @@
+{
+  "name": "opbeat-ionic",
+  "version": "1.1.3",
+  "description": "The unofficial Opbeat client for Ionic",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "test-cli": "node test/scripts/cli.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/opbeat/opbeat-node.git"
+  },
+  "keywords": [
+    "opbeat",
+    "log",
+    "logging",
+    "error",
+    "errors",
+    "exceptions",
+    "monitor",
+    "monitoring",
+    "alerts",
+    "performance",
+    "ops",
+    "devops",
+    "deployment",
+    "deploying",
+    "deploy",
+    "stacktrace"
+  ],
+  "author": {
+    "name": "Thomas Watson Steen",
+    "email": "w@tson.dk"
+  },
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/opbeat/opbeat-node/issues"
+  },
+  "homepage": "https://github.com/opbeat/opbeat-node",
+  "dependencies": {
+    "after-all": "^2.0.1",
+    "console-log-level": "^1.0.0",
+    "json-stringify-safe": "^5.0.0",
+    "stackman": "^0.2.2"
+  },
+  "devDependencies": {
+    "common": "^0.2.5",
+    "connect": "^3.3.3",
+    "express": "^4.10.7",
+    "inquirer": "^0.8.0",
+    "mkdirp": "^0.5.0",
+    "nock": "^0.51.0",
+    "restify": "^2.8.3",
+    "semver": "^4.0.0",
+    "tape": "^3.0.3",
+    "untildify": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "readme": "# Opbeat\n\n[![Build Status](https://travis-ci.org/opbeat/opbeat-node.png)](https://travis-ci.org/opbeat/opbeat-node)\n\nLog errors and stacktraces in [Opbeat](http://opbeat.com/) from within\nyour Node.js applications. Includes middleware support for\n[Connect](http://www.senchalabs.org/connect/) and\n[Express](http://expressjs.com/).\n\n- [Installation](#installation)\n- [Basic Usage](#basic-usage)\n- [Configuration](#configuration)\n- [Uncaught exceptions](#uncaught-exceptions)\n- [Advanced usage](#advanced-usage)\n- [Integrations](#integrations)\n- [Release tracking](#release-tracking)\n- [Compatibility](#compatibility)\n- [Credit](#credit)\n- [License](#license)\n\n**Important:** If you've been using version 0.3.x or earlier, please\nread our [upgrade guide](https://github.com/opbeat/opbeat-node/wiki/Upgrade-to-version-1.0).\n\n**Compatibility:** Make sure you read our [Compatibility\nGuide](https://github.com/opbeat/opbeat-node/wiki/Compatibility-Guide)\nif you use New Relic, longjohn or other modules that also captures\nuncaught exceptions or modifies the stacktraces.\n\n## Installation\n\n```\nnpm install opbeat\n```\n\n## Basic Usage\n\nTo get started just require and initialize the Opbeat module in the top\nof your app's main module. Out of the box this will catch unhandled\nexceptions automatically.\n\n```javascript\nvar opbeat = require('opbeat')({\n  appId: '...',\n  organizationId: '...',\n  secretToken: '...'\n});\n```\n\nIf you want to manually send an error to Opbeat, use the\n`captureError()` function:\n\n```javascript\nopbeat.captureError(new Error('Ups, something broke'));\n```\n\n## Configuration\n\nWhen you've required the Opbeat module you can supply an optional\noptions object to configure the client.\n\n```javascript\nrequire('opbeat')({\n  appId: '...',\n  organizationId: '...',\n  secretToken: '...',\n  ...\n});\n```\n\nThe available options are listed below, but can alternatively be set via\nthe listed environment variables.\n\n### appId\n\n- **Type:** String\n- **Env:** `OPBEAT_APP_ID`\n\nYour Opbeat app id. Required unless set via the `OPBEAT_APP_ID`\nenvironment variable.\n\n### organizationId\n\n- **Type:** String\n- **Env:** `OPBEAT_ORGANIZATION_ID`\n\nYour Opbeat orgainization id. Required unless set via the\n`OPBEAT_ORGANIZATION_ID` environment variable.\n\n### secretToken\n\n- **Type:** String\n- **Env:** `OPBEAT_SECRET_TOKEN`\n\nYour secret Opbeat token. Required unless set via the\n`OPBEAT_SECRET_TOKEN` environment variable.\n\n### active\n\n- **Type:** Boolean\n- **Default:** `true`\n- **Env:** `OPBEAT_ACTIVE`\n\nA boolean specifying if errors should be collected by the Opbeat client\nor not. Normally you would not want to capture errors in your\ndevelopment or testing environments. If you are using the `NODE_ENV`\nenvrionment variable, you can use this to determine the state:\n\n```javascript\nvar options = {\n  active: process.env.NODE_ENV === 'production'\n};\n```\n\n### hostname\n\n- **Type:** String\n- **Default:** OS hostname\n- **Env:** `OPBEAT_HOSTNAME`\n\nThe OS hostname is automatically logged along with all errors (you can\nsee it under the \"Environment\" tab on each error. If you want to\noverwrite this, use this option.\n\n### clientLogLevel\n\n- **Type:** String\n- **Default:** `'info'`\n- **Env:** `OPBEAT_CLIENT_LOG_LEVEL`\n\nSet the verbosity level the Opbeat client. Note that this does not have\nany influence on what types of errors that are sent to Opbeat. This only\ncontrols how chatty the Opbeat client are in your logs.\n\nPossible levels are: `debug`, `info`, `warn`, `error` and `fatal`.\n\n### logger\n\n- **Type:** object\n\nSet a custom logger, e.g.\n[bunyan](https://github.com/trentm/node-bunyan):\n\n```js\nrequire('opbeat')({\n  logger: require('bunyan')({ level: 'info' })\n});\n```\n\nIf no custom logger is provided, Opbeat will use its built-in logger\nwhich will log to STDOUT and STDERR depending on the log level.\n\nThe logger should expose the following functions: `debug`, `info`,\n`warn`, `error` and `fatal`.\n\nNote that if a custom logger is provided, the `clientLogLevel` option\nwill be ignored.\n\n### captureExceptions\n\n- **Type:** Boolean\n- **Default:** `true`\n- **Env:** `OPBEAT_CAPTURE_EXCEPTIONS`\n\nWhether or not the Opbeat client should monitor for uncaught exceptions\nand sent them to Opbeat automatically.\n\n### stackTraceLimit\n\n- **Type:** Number\n- **Default:** `Infinity`\n- **Env:** `OPBEAT_STACK_TRACE_LIMIT`\n\nSetting it to `0` will disable stacktrace collection. Any finite integer\nvalue will be used as the maximum number of frames to collect. Setting\nit to `Infinity` means that all frames will be collected.\n\n## Events\n\nThe client emits two events: `logged` and `error`.\n\n```javascript\nopbeat.on('logged', function (url) {\n  console.log('Yay, it worked! View online at: ' + url);\n});\n\nopbeat.on('error', function (err) {\n  console.log('Something went wrong. The error was not logged!');\n});\n\nopbeat.captureError('Boom');\n```\n\n## Uncaught exceptions\n\nThe client captures uncaught exceptions automatically and reports them\nto Opbeat. To disable this, set the configuration option\n`captureExceptions` to `false` when initializing the Opbeat client.\n\nYou can enable capturing of uncaught exceptions later by calling the\n`handleUncaughtExceptions()` function. This also gives you the option to\nadd a callback which will be called once an uncaught exception have been\nsent to Opbeat.\n\n```javascript\nopbeat.handleUncaughtExceptions([callback]);\n```\n\nIf you don't specify a callback, the node process is terminated\nautomatically when an uncaught exception have been captured and sent to\nOpbeat.\n\n[It is\nrecommended](http://nodejs.org/api/process.html#process_event_uncaughtexception)\nthat you don't leave the process running after receiving an\n`uncaughtException`, so if you are using the optional callback, remember\nto terminate the node process:\n\n```javascript\nvar opbeat = require('opbeat')();\n\nopbeat.handleUncaughtExceptions(function (err, url) {\n  // Do your own stuff... and then exit:\n  process.exit(1);\n});\n```\n\nThe callback is called **after** the event has been sent to the Opbeat\nserver with the following arguments:\n\n- `err` - the captured exception\n- `url` - the URL of where you can find the sent error on Opbeat\n\n## Advanced usage\n\n### HTTP requests\n\nYou can specify an optional options argument as the 2nd argument to\n`.captureError()`. Besides the options described in the [the metedata\nsection](#metadata), you can use the options to associate the error with\nan HTTP request:\n\n```javascript\nopbeat.captureError(err, {\n  request: req // an instance of http.IncomingMessage\n});\n```\n\nThis will log the URL that was requested, the HTTP headers, cookies and\nother useful details to help you debug the error.\n\n### Callback\n\nThe `captureError()` function can also be given an optional callback\nwhich will be called once the error have been sent to Opbeat:\n\n```javascript\nopbeat.captureError(error, function (opbeatErr, url) {\n  // ...\n});\n```\n\nThe callback is called with two arguments:\n\n- `opbeatErr` - set if something went wrong while trying to log the error\n- `url` - the URL of where you can find the sent error on Opbeat\n\n### Non-exceptions\n\nInstead of an `Error` object, you can log a plain text error-message:\n\n```javascript\nopbeat.captureError('Something happened!');\n```\n\nThis will also be logged as an error in Opbeat, but will not be\nassociated with an exception.\n\n#### Parameterized messages\n\nIf the message string contains state or time-specific data, Opbeat will\nnot always recognize multiple errors as belonging to the same group,\nsince the message text differs. To group these kind of messages, send\nthe message as a parameterized message:\n\n```javascript\nopbeat.captureError({\n  message: 'Timeout exeeded by %d seconds',\n  params: [seconds]\n});\n```\n\n### Metadata\n\nTo ease debugging it's possible to send some extra data with each\nerror you send to Opbeat. The Opbeat API supports a lot of different\nmetadata fields, most of which are automatlically managed by the\nopbeat node client. But if you wish you can supply some extra details\nusing `client_supplied_id`, `extra`, `user` or `query`. If you want to\nknow more about all the fields, you should take a look at the full\n[Opbeat API docs](http://docs.opbeat.com/api/intake/v1/#error-logging).\n\nTo supply any of these extra fields, use the optional options argument\nwhen calling `opbeat.captureError()`.\n\nHere are some examples:\n\n```javascript\n// Sending some extra details about the user\nopbeat.captureError(error, {\n  user: {\n    is_authenticated: true,\n    id: 'unique_id',\n    username: 'foo',\n    email: 'foo@example.com'\n  }\n});\n\n// Sending some abitrary extra details using the `extra` field\nopbeat.captureError(error, {\n  extra: {\n    some_important_metric: 'foobar'\n  }\n});\n```\n\n## Singleton access\n\nDon't waste time initializing the Opbeat client more than once. If you\nneed access the client in multiple files, just create an *opbeat.js*\nfile somewhere in your project, initialize Opbeat in there and export\nit:\n\n```javascript\n// opbeat.js\nmodule.exports = require('opbeat')({\n  appId: '...',\n  organizationId: '...',\n  secretToken: '...'\n});\n```\n\n## Integrations\n\n### Connect/Express middleware\n\nThe Opbeat middleware can be used as-is with either Connect or Express\nin the same way. Take note that in your middlewares, Opbeat must appear\n_after_ your main handler to pick up any errors that may result from\nhandling a request.\n\n#### Connect\n\n```javascript\nvar opbeat = require('opbeat')();\nvar connect = require('connect');\n\nvar app = connect();\n\n// your regular middleware:\n// app.use(...)\n// app.use(...)\n\n// your main HTTP handler\napp.use(function (req, res, next) {\n  throw new Error('Broke!');\n});\n\n// add Opbeat in the bottom of the middleware stack\napp.use(opbeat.middleware.connect());\n\napp.listen(3000);\n```\n\n#### Express\n\n```javascript\nvar opbeat = require('opbeat')();\nvar app = require('express').createServer();\n\napp.use(opbeat.middleware.express());\napp.get('/', function mainHandler(req, res) {\n  throw new Error('Broke!');\n});\napp.listen(3000);\n```\n\n__Note__: `opbeat.middleware.express` or `opbeat.middleware.connect`\n*must* be added to the middleware stack *before* any other error\nhandling middlewares or there's a chance that the error will never get\nto Opbeat.\n\n## Release tracking\n\nThough Opbeat provides other\nmeans of handling [release tracking](http://docs.opbeat.com/topics/release-tracking/), you can also use this client to do the same.\n\nUse the `trackDeployment()` function with the optional options and\ncallback arguments:\n\n```javascript\nopbeat.trackDeployment(options, callback);\n```\n\nOptions:\n\n- `path` - An optional path on the filesystem where the git repo can be found (defaults to the current working directory)\n- `rev` - An optional full git revision (will try to guess the `rev` based on the `path`)\n- `status` - `completed` (default) or `machine-completed`. If `machine-completed` is specified, the `hostname` attribute must be present\n- `branch` - Optional git branch (will try to guess the `rev` based on the `path`)\n- `hostname` - Optional hostname of the server that was updated. Required if `status=machine-completed`\n\nCallback:\n\nWill be called when the release has been tracked. Note that the\ncallback will not be called upon errors. Listen instead for the `error`\nevents.\n\n## Compatibility\n\nThe module is tested against Node.js v0.10 and above. Previous versions\nof Node.js is not supported.\n\n## Credit\n\nAll credit for the original work go out to the original contributors and\nthe main author [Matt Robenolt](https://github.com/mattrobenolt).\n\n## License\n\nBSD\n",
+  "readmeFilename": "README.md",
+  "_id": "opbeat-ionic@1.1.3",
+  "_shasum": "666aebbacf35fc7b243b71443b3173c65dc4d8a1",
+  "_resolved": "https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz",
+  "_from": "https://registry.npmjs.org/opbeat-ionic/-/opbeat-ionic-1.1.3.tgz"
+}

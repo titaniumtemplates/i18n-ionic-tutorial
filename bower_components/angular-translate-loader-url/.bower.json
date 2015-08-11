@@ -1,0 +1,27 @@
+{
+  "name": "angular-translate-loader-url",
+  "description": "A plugin for Angular Translate",
+  "version": "2.7.2",
+  "main": "./angular-translate-loader-url.js",
+  "dependencies": {
+    "angular-translate": "~2.7.2"
+  },
+  "ignore": [],
+  "author": "Pascal Precht",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "homepage": "https://github.com/PascalPrecht/bower-angular-translate-loader-url",
+  "_release": "2.7.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.7.2",
+    "commit": "af4c83fe0a609374023253088216bd37b9386e00"
+  },
+  "_source": "git://github.com/PascalPrecht/bower-angular-translate-loader-url.git",
+  "_target": "~2.7.2",
+  "_originalSource": "angular-translate-loader-url"
+}
