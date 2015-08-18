@@ -1,9 +1,0 @@
-#!/usr/bin/env node
-
-'use strict';
-
-process.title = 'ionic';
-
-var IonicCli = require('../lib/cli');
-
-IonicCli.run(process.argv);
