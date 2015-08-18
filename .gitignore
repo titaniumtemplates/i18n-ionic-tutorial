@@ -1,3 +1,13 @@
-# Build folder and log file
-build/
-build.log
+node_modules
+www
+.idea
+.temp
+.sass-cache
+app/bower_components
+coverage
+platforms
+plugins
+*.swp
+*.swo
+*.log
+*.DS_Store
